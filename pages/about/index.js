@@ -93,7 +93,7 @@ En mi tiempo libre me gusta tocar la flauta transversa e ir a la playa. ¡Estoy 
             <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="">
             <div className="flex flex-1 ">
             <div className="relative flex-1">
-            <a download href="/cv.pdf" className="text-[1.2rem] cursor-pointer text-center w-[14rem] pt-2 pb-2 flex justify-center m-auto mt-10 xl:m-0 border rounded border-white font-extrabold text-white mb-2">Descargar CV</a>
+            <a download href="/CV.pdf" className="text-[1.2rem] cursor-pointer text-center w-[14rem] pt-2 pb-2 flex justify-center m-auto mt-10 xl:m-0 border rounded border-white font-extrabold text-white mb-2">Descargar CV</a>
 
             </div>
               
