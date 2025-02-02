@@ -1,14 +1,15 @@
 import Image from "next/image"
 import Link from 'next/link'
-import ParticlesContainer from "../../components/ParticlesContainer"
+import {motion} from "framer-motion"
+import {fadeIn} from "../../variants"
 
 const Work = () => {
        return <div className="w-full h-full overflow-y-scroll bg-[#3f0c17]  overflow-x-hidden ">
                   <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-[98%] h-full absolute mix-blend-color-dodge translate-z-0"></div>
-              <h2 className="h2 text-center mt-16 xl:mt-16 ">Mis Proyectos <span className="text-accent">Jeskarin</span></h2>
+              <motion.h2 variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="h2 text-center mt-16 xl:mt-16 ">Mis Proyectos <span className="text-accent">Jeskarin</span></motion.h2>
               
               <div className="w-[90%] min-h-min[70%] pb-16 relative  flex flex-wrap justify-center ml-10">
-                     <div className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
+                     <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
                             <Link href="https://jeskarin36.github.io/EditorImage/" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
                                           <Image src="/Capturadepantalla 2024-12-12113626.png" fill
@@ -24,8 +25,8 @@ const Work = () => {
 
                                    </div>
                             </Link>
-                     </div>
-                     <div className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
+                     </motion.div>
+                     <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
                             <Link href="https://jeskarin36.github.io/react-restaurant/" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
                                           <Image src="/Captur25.png" fill
@@ -38,8 +39,8 @@ const Work = () => {
                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-700">React</div>
                                    </div>
                             </Link>
-                     </div>
-                     <div className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10  p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
+                     </motion.div>
+                     <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10  p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
                             <Link href="https://jeskarin36.github.io/react-skyloop/" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
                                           <Image src="/Captur0.png" fill
@@ -53,7 +54,7 @@ const Work = () => {
                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-700">React</div>
                                    </div>
                             </Link>
-                     </div>
+                     </motion.div>
   
 
                             <div className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
