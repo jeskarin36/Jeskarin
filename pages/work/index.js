@@ -30,11 +30,11 @@ const Work = () => {
        <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
                             <Link href="https://tienda-violin.vercel.app/" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
-                                          <Image src="/Capturadepantalla 2024-12-12113626.png" fill
+                                          <Image src="/VIOLINT.PNG" fill
                                                  style={{ objectFit: "fill" }} ></Image>
                                    </div>
                                    <h5 className=" text-[1.2rem] mt-3 ">Tienda de Violin</h5>
-                                   <p className="text-[.9rem] mt-3">Con animaciones en 3d puedes apreciar el violin stradivari</p>
+                                   <p className="text-[.9rem] mt-3">Stradivari es una pagina con animaciones en 3d para apreciar mejor su producto..</p>
                                    <div className="flex gap-2 flex-wrap  mt-3">
                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-700">React</div>
                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">GSAP</div>
