@@ -9,6 +9,71 @@ const Work = () => {
               <motion.h2 variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="h2 text-center mt-16 xl:mt-16 ">Mis Proyectos <span className="text-accent">Jeskarin</span></motion.h2>
               
               <div className="w-[90%] min-h-min[70%] pb-16 relative  flex flex-wrap justify-center ml-10">
+                   
+                   
+
+    <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
+                            <Link href="https://morocharecipe.onrender.com" target="_blank">
+                                   <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
+                                          <Image src="/Captukjkljkjlkjlkra.PNG" fill
+                                                 style={{ objectFit: "fill" }} ></Image>
+                                   </div>
+                                   <h5 className=" text-[1.2rem] mt-3 ">Recetas con IA</h5>
+                                   <p className="text-[.9rem] mt-3"> Lleva el control de tu cocina con la IA ..</p>
+                                   <div className="flex gap-2 flex-wrap  mt-3">
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-green-700">Node.js</div>
+                                        <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">PostgreSQL</div>
+  <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">Sequelize</div>
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">React</div>
+                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">Google Gen AI SDK</div>
+
+                                   </div>
+                            </Link>
+                     </motion.div>
+
+
+     <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
+                            <Link href="https://morochat.onrender.com" target="_blank">
+                                   <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
+                                          <Image src="/Capjhjkahdkaskdsatura.PNG" fill
+                                                 style={{ objectFit: "fill" }} ></Image>
+                                   </div>
+                                   <h5 className=" text-[1.2rem] mt-3 ">Chat </h5>
+                                   <p className="text-[.9rem] mt-3">una aplicación de mensajería instantánea full-stack ..</p>
+                                   <div className="flex gap-2 flex-wrap  mt-3">
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-green-700">Node.js</div>
+                                                <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-green-700">Clerk</div>
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">Socket.io</div>
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">React</div>
+                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">Zustand</div>
+ <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-green-800">MongoDB</div>
+
+                                   </div>
+                            </Link>
+                     </motion.div>
+                   
+
+                      <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
+                            <Link href="https://morochastore.onrender.com" target="_blank">
+                                   <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
+                                          <Image src="/Capthkjhjkhkhkura.PNG" fill
+                                                 style={{ objectFit: "fill" }} ></Image>
+                                   </div>
+                                   <h5 className=" text-[1.2rem] mt-3 ">E-Commerce</h5>
+                                   <p className="text-[.9rem] mt-3"> Una e-commerce diseñado para ofrecer una experiencia full-stack ..</p>
+                                   <div className="flex gap-2 flex-wrap  mt-3">
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-green-700">Node.js</div>
+                                                <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-green-700">Clerk</div>
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">TypeScript</div>
+                                          <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">React</div>
+                                           <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">Zustand</div>
+ <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">PostgreSQL</div>
+  <div className="w-15 pl-3 pr-3 h-6 text-[.8rem] text-center bg-blue-600">Drizzle</div>
+                                   </div>
+                            </Link>
+                     </motion.div>
+                   
+                   
                      <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
                             <Link href="https://jeskarin36.github.io/EditorImage/" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">

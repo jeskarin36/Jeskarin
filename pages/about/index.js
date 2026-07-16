@@ -84,7 +84,7 @@ const About = () => {
             <motion.h2 variants={fadeIn('right',0.2)} initial="hidden" animate="show" exit="hidden"className=" h2  text-center xl:text-start">Sobre Mi</motion.h2>      
             <motion.p variants={fadeIn('right',0.4)} initial="hidden" animate="show" exit="hidden" className="max-w-[500px] mx-auto xl:mx-0 md-6 xl:mb-12 px-2 xl:px-0 ">
               
-            Soy Ingeniera Informatica con gran pasion por el Desarrollo de Software. Tengo 21 años, vivo en San Jose de Barlovento, Venezuela. <br></br><br></br>
+            Soy Ingeniera Informatica con gran pasion por el Desarrollo de Software. Tengo 23 años, vivo en San Jose de Barlovento, Venezuela. <br></br><br></br>
             Me especializo en React.js, Next.js, TypeScript y Tailwind para crear aplicaciones web escalables y eficientes.<br></br><br></br>
 En mi tiempo libre me gusta tocar la flauta transversa e ir a la playa. ¡Estoy emocionada de explorar más la tecnología y colaborar en proyectos innovadores!
             
