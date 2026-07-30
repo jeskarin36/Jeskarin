@@ -13,7 +13,7 @@ const Work = () => {
                    
 
     <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
-                            <Link href="https://morocharecipe.onrender.com" target="_blank">
+                            <Link href="http://137.184.1.192:8081/login" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
                                           <Image src="/Captukjkljkjlkjlkra.PNG" fill
                                                  style={{ objectFit: "fill" }} ></Image>
@@ -33,7 +33,7 @@ const Work = () => {
 
 
      <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden"  className="w-[19rem] h-[25rem] cursor-pointer m-auto mt-10 p-5 rounded-lg shadow-[23px_26px_23px_-3px_rgba(0,_0,_0,_0.6)] bg-gradient-to-r from-rose-900 via-rose-600 to-red-700">
-                            <Link href="https://morochat.onrender.com" target="_blank">
+                            <Link href="http://137.184.1.192:8080/" target="_blank">
                                    <div className="w-[100%] h-[45%] relative bg-indigo-900 ">
                                           <Image src="/Capjhjkahdkaskdsatura.PNG" fill
                                                  style={{ objectFit: "fill" }} ></Image>
